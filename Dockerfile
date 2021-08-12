@@ -5,4 +5,4 @@ RUN chmod 777 /app
 RUN apt -qq update
 RUN apt -qq install -y bash
 RUN pip install -r requirements.txt
-CMD ["python","bot.py"]
+CMD ["bash","start.sh"]
